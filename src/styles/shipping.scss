@@ -60,6 +60,13 @@
 
     > button {
       width: 100%;
+        background-color: $red;
+        color: blue;
+        border: none;
+        padding: 1rem 2rem;
+        width: 50%;
+        border-radius: 10px;
+        cursor: pointer;
     }
   }
 }

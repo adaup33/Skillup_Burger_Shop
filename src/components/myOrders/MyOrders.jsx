@@ -21,8 +21,20 @@ const MyOrders = () => {
           </thead>
 
           <tbody>
-//     Add the code for the table body
-           
+            {arr.map((orderId) => (
+              <tr key={orderId}>
+                <td>{orderId}</td>
+                <td>Processing</td>
+                <td>23</td>
+                <td>Rs ₹2132</td>
+                <td>COD</td>
+                <td>
+                  <Link to="/order/:id">
+                    <AiOutlineEye />
+                  </Link>
+                </td>
+              </tr>
+            ))}
           </tbody>
         </table>
       </main>
