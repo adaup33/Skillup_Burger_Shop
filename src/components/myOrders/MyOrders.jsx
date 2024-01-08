@@ -29,7 +29,7 @@ const MyOrders = () => {
                 <td>Rs ₹2132</td>
                 <td>COD</td>
                 <td>
-                  <Link to="/order/:id">
+                  <Link to="/order/:id"> 
                     <AiOutlineEye />
                   </Link>
                 </td>
